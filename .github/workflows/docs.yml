@@ -12,6 +12,8 @@ jobs:
   all:
     name: all
     runs-on: ubuntu-latest
+    # Currently disabled. Remove the `if: false` condition to enable when needed.
+    if: false
 
     steps:
       - uses: actions/checkout@v3
